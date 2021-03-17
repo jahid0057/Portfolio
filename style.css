@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/sadat.jpg") no-repeat center;
+    background: url("images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700322042.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -278,7 +278,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgb(27, 97, 109)n;
+    color: rgb(27, 97, 109)n;
+
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
