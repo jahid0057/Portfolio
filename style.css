@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700322042.jpg") no-repeat center;
+    background: url("images/omid-armin-pnxMDGBj6Jw-unsplash.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -550,7 +550,32 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+/* ================ scroll-down =============== */
+.home .scroll-down{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    animation: scroll-down 2s ease infinite;
+    transition: all 0.6s ease;
+}
+@keyframes scroll-down{
+    0%,20%,50%,80%,100%{
+     transform: translateY(0);
+    }
+    40%{
+     transform: translateY(-30px);
+    }
+    80%{
+        transform: translateY(-15px);
+    }
+}
+.home .scroll-down img{
+    width: 20px;
+    display: block;
+}
 
 /* responsive media query start */
 
